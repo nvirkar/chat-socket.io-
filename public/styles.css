@@ -1,0 +1,25 @@
+.wrapper .chat-window{
+    height: 360px;
+    border: 1px solid;
+    padding:2px;
+    overflow-y: scroll;
+    
+}
+
+::-webkit-scrollbar { width: 0 !important }
+
+.wrapper #handler,.wrapper #message{
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.wrapper #message{
+     width: 80%;
+}
+.wrapper #feedback{
+        margin-top: 2px;
+}
+
+.wrapper .data{
+    margin: 4px 10px;
+}
